@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-color: #3c5aa6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input, button {
+  margin: 10px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input {
+  background-color: #ecf1f5;
+}
+
+button {
+  background-color: #e2ba16;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c7a008;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
